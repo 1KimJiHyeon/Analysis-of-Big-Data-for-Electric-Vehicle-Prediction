@@ -110,7 +110,7 @@ Successfully created branch: master
 ```
 
 ### CodeCommit 리포지토리에서 배포
-#### EB CLI 리포지토리에서 CodeCommit를 구성하면 EB CLI는 리포지토리의 내용을 사용하여 소스 번들을 생성합니다. eb deploy 또는 eb create를 실행하면 EB CLI는 새 커밋을 푸시하고 브랜치의 HEAD 개정을 사용하여 환경의 EC2 인스턴스에 배포하는 아카이브를 생성합니다.
+###### EB CLI 리포지토리에서 CodeCommit를 구성하면 EB CLI는 리포지토리의 내용을 사용하여 소스 번들을 생성합니다. eb deploy 또는 eb create를 실행하면 EB CLI는 새 커밋을 푸시하고 브랜치의 HEAD 개정을 사용하여 환경의 EC2 인스턴스에 배포하는 아카이브를 생성합니다.
 
 - eb create를 사용하여 새 환경을 생성합니다.
 
